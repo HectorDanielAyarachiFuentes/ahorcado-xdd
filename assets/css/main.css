@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+font-family: 'VT323', monospace;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.nav {
+  background-color: #FCD581;
+}
+
+.bg-home {
+    background-color: #FCFAF9;
+    height: 550px;
+}
+
+.imagenesIndex {
+  width: 60%;
+}
+
+.imagenesIndexMexico {
+  width: 80%;
+}
+
+.imagenesIndexBandera {
+  width: 40%;
+}
+
+.mexicanoWith {
+  width: 50%;
+  padding: 10px;
+}
+
+.padding-top {
+    padding-top: 200px;
+}
+
+.btn-play{
+  padding: 10px 50px;
+  width: 150px;
+  height: 80px;
+  background-color: #D52941;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 2em;
+  text-decoration: none; 
+
+}
+
+.btn-play: hover{
+  background-color: #
+}

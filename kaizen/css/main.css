@@ -1,0 +1,164 @@
+*{
+margin: 0px;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+  background-color: #FCFAF9;
+  font-family: 'Coming Soon', cursive;
+}
+
+header {
+  font-family: 'Delius Unicase', cursive;
+  background-color: #FCD581;
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+ul {
+  background-color: #FCD581;
+  display: block;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+  list-style: none;
+  color: #D52941;
+}
+
+li a {
+  padding-left: 125px;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  text-align: center;
+  color: #D52941;
+  font-size: .5em;
+}
+
+a:hover {
+    background-color: #FFF689;
+    color: #58355E;
+}
+
+/*Imagenes*/
+.alinearCentrado {
+  text-align: center;
+}
+
+.fotosCoders img {
+  width: 50%;
+  margin: 1%;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  border: 10px solid white;
+  cursor: pointer;
+}
+
+.fotosCoders img:hover {
+  opacity: 1;
+  filter: alpha(opacity=50);
+}
+
+.nombres {
+  font-size: 1em;
+  margin-right: 20px;
+  color: white;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 160px;
+  z-index: 1;
+}
+
+.descripcion {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-right: 20px;
+  color: #D52941;
+}
+
+.container {
+  width: 100%;
+  padding: 0;
+}
+
+.row:before, .row:after {
+  content: " ";
+  display: table;
+ }
+
+ .row::after{
+   clear: both;
+ }
+
+[class*="col-"] {
+   min-height: 7px;
+   padding: 13px;
+   float: left;
+}
+
+.col-1 {
+  /*(1 / 12) * 100 */
+  width: 8.333%;
+}
+
+.col-2 {
+  /*(2 / 12) * 100 */
+  width: 16.667%;
+}
+
+.col-3 {
+  /*(3 / 12) * 100 */
+  width: 25%;
+}
+
+.col-4 {
+  /*(4 / 12) * 100 */
+  width: 33.333%;
+}
+
+.col-5 {
+  /*(5 / 12) * 100 */
+  width: 41.667%;
+}
+
+.col-6 {
+  /*(6 / 12) * 100 */
+  width: 50%;
+}
+
+.col-7 {
+  /*(7 / 12) * 100 */
+  width: 58.333%;
+}
+
+.col-8 {
+  /*(8 / 12) * 100 */
+  width: 66.667%;
+}
+
+.col-9 {
+  /*(9 / 12) * 100 */
+  width: 75%;
+}
+
+.col-10 {
+  /*(10 / 12) * 100 */
+  width: 83.333%;
+}
+
+.col-11 {
+  /*(11 / 12) * 100 */
+  width: 91.666%;
+}
+
+.col-12 {
+  /*(12 / 12) * 100 */
+  width: 100%;
+}
